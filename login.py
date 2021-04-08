@@ -1,6 +1,12 @@
 from library import config
 
-print("[+] Instagram View Story - By: GidhanB.A\n")
+print("🅼🅰🆂🆂 🅻🅾🅾🅺🅴🆁 
+	$---------$--------$
+	1.Mass story views without Action block
+	2.Reacts to stories
+	3.Auto Poll reactions
+	4.Auto Question Ansewring
+	$---------$--------$")
 
 userig = input("[+] Input your instagram username: ")
 passig = config.igfunc.getpass.getpass("[+] Input your instagram password: ")
