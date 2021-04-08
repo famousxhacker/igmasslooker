@@ -4,7 +4,13 @@ cookieData = config.igfunc.file_get_contents("data/"+config.cookieFile).split("|
 cookie, useragent = cookieData[0], cookieData[1]
 loop = True
 
-print("[+] Instagram View Story - By: GidhanB.A\n")
+print("🅼🅰🆂🆂 🅻🅾🅾🅺🅴🆁 
+	$---------$--------$
+	1.Mass story views without Action block
+	2.Reacts to stories
+	3.Auto Poll reactions
+	4.Auto Question Ansewring
+	$---------$--------$")
 if cookie:
     getakun = config.igfunc.json.loads(config.igfunc.get_request(1,useragent,'accounts/current_user/',cookie).text)
     if getakun["status"] == "ok":
