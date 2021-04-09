@@ -25,12 +25,10 @@ MassLooker requires [PHP](https://www.php.net/) 5.6 to run.
 
 ```sh
 Follow These Steps for Installation
-$pkg install php
-$pkg install git
-$pkg install mc
 $ git clone https://github.com/famousxhacker/igmasslooker
 $ cd igmasslooker
-$ php login.php
-$ php run.php
+$ pip3 install -r requirements.txt
+$ python3 login.py
+$ python3 run.py
 ```
 
